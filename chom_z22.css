@@ -1,0 +1,14 @@
+p{
+color: red;
+font-size: 22pt;
+}
+p#chudy_chomicz{
+color: green;
+font-size: 17pt;
+font-weight: bold;
+}
+#dlawszystkich_chomicz{
+font-family: Arial;
+color: yellow;
+font-size: 10pt;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+ 	<meta http-equiv="Content-Type" content="text/html; charset="utf-8">
+<LINK href=" chom_z4.css " rel="stylesheet"  type="text/CSS">
+ 	<title>  zadanie 4 </title>
+</head>
+	<body>
+<ol type=1 start=1>
+<li>Zewnętrzny arkusz stylów.<br>
+<textarea>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+</textarea><br><br>
+
+
+<li>Styl lokalny inaczej: (styl wpisany, liniowy, linijkowy, w linii)<br>
+czyli dopisanie arkusza do wybranego bloku treści strony.<br>
+<textarea>
+<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+</textarea><br><br>
+
+
+<li>Wewnętrzny arkusz stylów.<br>
+<textarea>
+<head>
+ <style type="text/css">
+ selektor1 { cecha: wartość; cecha2: wartość2... }
+ selektor2 { cecha: wartość; cecha2: wartość2... }
+ </style>
+</head>
+</textarea><br><br>
+
+
+<li>Alternatywny arkusz stylów.<br>
+<textarea>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+</head>
+</textarea><br><br>
+
+
+<li>Import arkusza stylów.<br>
+<textarea>
+<style type="text/css">
+ @import url(adres zewnętrznego arkusza stylów);
+</style>
+</textarea><br><br>
+</ol>
+
+ 	</body>
+</html>
